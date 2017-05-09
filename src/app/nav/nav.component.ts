@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 })
 export class NavComponent {
   paths = [
-        {url: "", content: "Home"}
+      {url: "", content: "Home"},
+      {url: "people", content: "People"},
     ];
 
 }

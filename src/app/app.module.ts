@@ -3,9 +3,10 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
-import {NavComponent} from "../nav/nav.component";
-import {AppRoutingModule} from "./app-routing.module";
+import { AppComponent } from './app/app.component';
+import {NavComponent} from "./nav/nav.component";
+import {AppRoutingModule} from "./app/app-routing.module";
+import {PeopleModule} from "./people/people.module";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {AppRoutingModule} from "./app-routing.module";
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PeopleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
