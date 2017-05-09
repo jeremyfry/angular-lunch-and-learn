@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PersonComponent } from '../people/person/person.component';
 
 const routes: Routes = [
 	{
@@ -9,7 +8,7 @@ const routes: Routes = [
 	},
 	{
 		path: 'people',
-		component: PersonComponent
+		loadChildren: '../people/people.module'
 	}
 ];
 
