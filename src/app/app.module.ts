@@ -3,9 +3,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
-import {NavComponent} from "../nav/nav.component";
-import {AppRoutingModule} from "./app-routing.module";
+import { AppComponent } from './app/app.component';
+import {NavComponent} from "./nav/nav.component";
+import {AppRoutingModule} from "./app/app-routing.module";
 
 @NgModule({
   declarations: [
